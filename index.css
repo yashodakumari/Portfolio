@@ -1,0 +1,158 @@
+
+
+#image{
+	float:left;
+	padding:15px;
+}
+.p{
+	padding:5px;
+}
+#detail{
+	border:2px solid black;
+}
+#background-image{
+	background-image: url("bg.jpg");
+	
+	height:350px; 
+
+}
+.content{
+	background-color: rgba(3, 11, 19, 0.788);
+	width:450px;
+	text-align: center;
+	color: rgb(215, 233, 250);
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+	}
+nav{
+	list-style-type: none;
+	}
+
+li a{
+	text-decoration: none;
+	float:right;
+	display:block;
+	color:#666;
+	padding:14px 15px;
+}
+.logo{
+	float :left;
+	height:15px;
+	padding-left: 10px;
+}
+.header{
+	padding:0px;
+	border-bottom:2px solid black;
+	background-color: #7FBFDE;
+	height:70px;
+	width:100%;
+	margin:0px;
+
+}
+.try{
+	float:left;
+}
+
+.thumbnail{
+      display:block;
+      max-width: 100%;
+      height:30vh;
+      float :left;
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.item{
+	width:13%;
+   display: inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    margin-bottom:20px;
+ 
+    border:1px solid black;
+    
+    
+    float:left;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top:20px;
+}
+.caption{
+	color:#000;
+	
+	font-weight:bold;
+	text-align:center;
+	text-decoration: none;
+}
+
+body{
+	background-color: #e1e7eece;
+}
+.ph{
+   border-radius: 50%;
+   height: 350px;
+   margin-left: 40%;
+  
+
+}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color:#fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+
+}
+.item j{
+	margin-bottom: 100%;
+}
+.work{
+	text-align: center;
+}
+.col-1{
+	float: left;
+	padding-left: 90px;
+}
+.col-2{
+	float:right;
+	padding-right: 90px;
+}
+@media only screen and (max-width: 800px){
+	nav ul li{
+		position: absolute;
+		top:70px;
+		left:0;
+		background: #333;
+		width: 100%;
+		overflow: hidden;
+		transition:max-height 0.5s;
+
+	}}
+	
+	@media only screen and (max-width: 600px){
+		.row{
+			text-align: center;
+		}
+		.col-0, .col-1, .col-2, .col-3{
+			flex-basis: 100%;
+		}
+		.item{
+			flex-basis: 100%;
+
+		}
+		.ph{
+			flex-basis: 100%;
+         margin: 0 0px 0px 109px;
+}
+
+
+		}
+	
